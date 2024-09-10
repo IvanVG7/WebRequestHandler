@@ -33,3 +33,7 @@ server = HTTPServer(("localhost", 8000), WebRequestHandler) #SE CAMBIO AL PUERTO
 
 
 server.serve_forever()
+
+
+if __name__ == "__main__":
+    print("Starting server on port 8000")
